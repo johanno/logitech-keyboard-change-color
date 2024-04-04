@@ -3,7 +3,6 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     g15daemon
     libusb1.dev
-    libusb-compat-0_1
     # c build tools
     gnumake42
     gdb
